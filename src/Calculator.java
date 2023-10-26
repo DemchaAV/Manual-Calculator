@@ -7,6 +7,7 @@ public class Calculator {
     private int num2;
     private char type;
 
+
     public Calculator() {
         boolean running = true;
         Scanner sc = new Scanner(System.in);
@@ -52,11 +53,6 @@ public class Calculator {
                 }
             }
         }
-    }
-
-
-    public static void main(String[] args) {
-        Calculator calculator = new Calculator();
     }
 }
 
